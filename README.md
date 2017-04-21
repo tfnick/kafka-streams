@@ -1,4 +1,4 @@
-#kafka-streams
+# kafka-streams
 This is the repository for the examples of using Kafka streams covered in the blog posts: 
 
  *   [Kafka Streams - The Processor API](http://codingjunkie.net/kafka-processor-part1/)
