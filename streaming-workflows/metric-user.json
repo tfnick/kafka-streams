@@ -1,0 +1,20 @@
+{
+  "eventFrequency": 400,
+  "varyEventFrequency": true,
+  "repeatWorkflow": true,
+  "timeBetweenRepeat": 1500,
+  "varyRepeatFrequency": true,
+  "steps": [
+    {
+      "config": [
+        {
+          "metric" : "x001",
+          "uid" : "uuid()",
+          "expression": "random('x001 < 2.00 or x001 > 18.00','x001 < 3.00 or x001 > 17.00','x001 < 9.00 or x001 > 19.00')",
+          "orderTime": "date(\"2021/03/19T00:00:00\",\"2021/03/19T23:59:59\")"
+        }
+      ],
+      "duration": 0
+    }
+  ]
+}

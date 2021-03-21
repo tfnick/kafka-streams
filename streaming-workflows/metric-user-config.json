@@ -1,0 +1,21 @@
+{
+  "workflows": [
+    {
+      "workflowName": "metric-user",
+      "workflowFilename": "metric-user.json"
+    }
+  ],
+  "producers": [
+    {
+      "type": "kafka",
+      "broker.server": "127.0.0.1",
+      "broker.port": 9092,
+      "topic": "src-metric-user",
+      "flatten" : false,
+      "sync": false
+    },
+    {
+      "type": "logger"
+    }
+  ]
+}

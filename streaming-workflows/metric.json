@@ -1,0 +1,19 @@
+{
+  "eventFrequency": 5000,
+  "varyEventFrequency": true,
+  "repeatWorkflow": true,
+  "timeBetweenRepeat": 1500,
+  "varyRepeatFrequency": true,
+  "steps": [
+    {
+      "config": [
+        {
+          "metric" : "x001",
+          "price": "double(0.66,19.99)",
+          "orderTime": "date(\"2021/03/19T00:00:00\",\"2021/03/19T23:59:59\")"
+        }
+      ],
+      "duration": 0
+    }
+  ]
+}
